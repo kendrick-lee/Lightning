@@ -31,7 +31,6 @@ void draw()
 
 
 	// Lightning //
-	while(startY > 0){
 		stroke(255);
 		strokeWeight(4);
 		endX = startX + (int)((Math.random()*24)-12);
@@ -40,12 +39,14 @@ void draw()
 		
 		startX = endX;
 		startY = endY;
-	}
+	
 	
 
 }
 void mousePressed()
 {
+	redraw();
+
 	startX = 300;
 	startY = 360;
 	endX = 300;
