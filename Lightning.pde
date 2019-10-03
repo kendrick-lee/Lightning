@@ -12,6 +12,8 @@ void setup()
 }
 void draw()
 {
+	
+
 	// Hammer //
 	noStroke();
 	fill(170);
@@ -30,6 +32,7 @@ void draw()
 	rect(290,550,20,10);
 
 
+
 	// Lightning //
 		stroke(255);
 		strokeWeight(4);
@@ -40,12 +43,12 @@ void draw()
 		startX = endX;
 		startY = endY;
 	
-	
 
 }
 void mousePressed()
 {
-	redraw();
+		redraw();
+	
 
 	startX = 300;
 	startY = 360;
