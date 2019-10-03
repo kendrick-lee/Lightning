@@ -33,8 +33,10 @@ void draw()
 
 
 
+	int b = (int)((Math.random()*120)+40);
+
 	// Lightning //
-		stroke(255);
+		stroke(20,40,b);
 		strokeWeight(4);
 		endX = startX + (int)((Math.random()*24)-12);
 		endY = startY - (int)((Math.random()*9)+1);
